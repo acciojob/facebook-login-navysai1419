@@ -20,7 +20,7 @@ body {
 			display:inline-block;
         }
 
-        .right {
+        .right{
             display: flex;
             flex-direction: column;
             gap: 10px;
