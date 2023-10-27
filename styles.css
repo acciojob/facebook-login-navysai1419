@@ -17,6 +17,7 @@ body {
         .left {
             width: 450px;
             margin-top: 70px;
+			display:inline-block;
         }
 
         .right {
@@ -30,15 +31,10 @@ body {
             box-shadow: 0 0 10px #ccc;
         }
 
-        input {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-        }
+
 
         button {
             background-color: #1877f2;
-            border: none;
             border-radius: 5px;
             padding: 10px 20px;
             width: 100%;
@@ -53,9 +49,5 @@ body {
 
         .signup {
             background-color: #42b72a;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            color: white;
-            cursor: pointer;
+           
         }
