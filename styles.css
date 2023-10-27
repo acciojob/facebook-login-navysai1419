@@ -9,6 +9,7 @@ body {
         }
 
         .container {
+			padding:10px
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -30,7 +31,17 @@ body {
             border-radius: 5px;
             box-shadow: 0 0 10px #ccc;
         }
-
+form{
+	display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 300px;
+/*             background-color: white; */
+/*             padding: px; */
+            border-radius: 5px;
+        
+	
+}
 
 
         button {
