@@ -36,8 +36,7 @@ form{
             flex-direction: column;
             gap: 10px;
             width: 300px;
-            background-color: (255, 255, 255);
-/*             padding: px; */
+            background-color: rgb(255, 255, 255);
             border-radius: 5px;
         
 	
