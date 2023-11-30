@@ -5,6 +5,35 @@ body {
     align-items: center;
     height: 100vh;
 }
+body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .left {
+            text-align: center;
+        }
+
+        .right {
+            text-align: center;
+        }
+
+        .form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    gap: 10px;
+}
 
 .container {
     display: flex;
@@ -20,16 +49,7 @@ body {
 
 
 
-.form{
-	 display: flex;
-    flex-direction: column;
-    width: 300px;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #ccc;
-    gap: 10px;
-}
+
 input {
     border: 1px solid #ccc;
     border-radius: 5px;
