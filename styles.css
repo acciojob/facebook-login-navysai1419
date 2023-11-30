@@ -18,7 +18,7 @@ body {
             text-align: center;
         }
 
-        form{
+       .right form{
     display: flex;
     flex-direction: column;
     width: 300px;
