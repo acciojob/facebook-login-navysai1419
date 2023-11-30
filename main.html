@@ -1,24 +1,56 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Login</title>
-  </head>
-  <body>
-	 <div class="container">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .left {
+            text-align: center;
+        }
+
+        .right {
+            text-align: center;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
         <div class="left">
             <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook logo">
             <p>Facebook helps you connect and share with the people in your life.</p>
         </div>
         <div class="right">
-            <form style="backgroud-color:rgba">
+            <form>
                 <input type="text" id="email" placeholder="Email address or phone number">
+                <br>
                 <input type="password" id="password" placeholder="Password">
+                <br>
                 <button type="submit">Log in</button>
+                <br>
                 <a href="#">Forgotten account?</a>
-				<button class="signup">Create new account</button>
+                <br>
+                <button class="signup">Create new account</button>
             </form>
-            
         </div>
     </div>
     <!-- Write your code here -->
-  </body>
+</body>
 </html>
